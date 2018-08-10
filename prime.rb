@@ -11,8 +11,8 @@ def prime?(integer)
     elsif integer <= 1
       false
     else
-    i=4
-    while i < Math.sqrt(integer) || i==4
+    i=5
+    while i < Math.sqrt(integer)
       if integer % i == 0 #where i is possible factor
         false
       end
