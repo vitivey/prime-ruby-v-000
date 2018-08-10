@@ -8,7 +8,7 @@ def prime?(integer)
         true
     elsif integer == 3
         true
-    elsif integer <+ 0
+    elsif integer <= 0
       false
     else
     i=2
