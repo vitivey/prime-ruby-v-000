@@ -12,9 +12,9 @@ def prime?(integer)
       false
     else
     i=2
-    while i < Math.sqrt(integer)
+    while i <= Math.sqrt(integer)
       if integer % i == 0 #where i is possible factor
-        false
+      false      
       end
       i+=1
     end
