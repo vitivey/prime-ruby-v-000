@@ -13,7 +13,7 @@ def prime?(integer)
       #range=(2..Math.sqrt(integer.abs)).to_a # range is a list of all the factors of the integer
   #  end
 
-    i=0
+    i=1
     while i < Math.sqrt(integer)
       if integer % i == 0 #where i is possible factor
         false
