@@ -3,16 +3,15 @@
 #require 'pry'
 # Add  code here!
 #integer=40
-def prime?(value)
-    integer = (value).abs  #.abs finds the absolute value of a number
+def prime?(integer)
     if integer == 2
         true
     elsif integer == 3
         true
+    elsif integer < 0
+      false
     else
-      #range=(2..Math.sqrt(integer.abs)).to_a # range is a list of all the factors of the integer
-  #  end
-
+      
     i=2
     count=0
     while i < Math.sqrt(integer.abs)
