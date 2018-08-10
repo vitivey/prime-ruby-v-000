@@ -30,10 +30,10 @@ end
 
 
 
-  puts "2 should be true: #{prime?(2)} with range: #{range=(2..Math.sqrt(2.abs)).to_a}"
-  puts "11 should be true: #{prime?(11)} with range: #{range=(2..Math.sqrt(11.abs)).to_a}"
-  puts "6 should be false: #{prime?(6)} with range: #{range=(2..Math.sqrt(6.abs)).to_a}"
-  puts "1763 should be true: #{prime?(1763)} with range: #{range=(2..Math.sqrt(1763.abs)).to_a}"
+  puts "2 should be true: #{prime?(2)}"
+  puts "11 should be true: #{prime?(11)}"
+  puts "6 should be false: #{prime?(6)}"
+  puts "1763 should be true: #{prime?(1763)}"
 
 
 #puts Benchmark.measure { BigMath.PI(10_000) }
