@@ -13,13 +13,15 @@ def prime?(integer)
       #range=(2..Math.sqrt(integer.abs)).to_a # range is a list of all the factors of the integer
   #  end
 
-    i=1
+    i=2
+    count=0
     while i < Math.sqrt(integer)
       if integer % i == 0 #where i is possible factor
         false
       end
       i+=1
     end
+    true
   end
 end
 
