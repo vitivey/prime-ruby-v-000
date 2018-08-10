@@ -6,26 +6,26 @@
 def prime?(integer)
     integer = integer.abs  #.abs finds the absolute value of a number
     if integer == 2
-        range = [2]
+        true
     elsif integer == 3
-        range =[3]
+        true
     else
-      range=(2..Math.sqrt(integer.abs)).to_a # range is a list of all the factors of the integer
-    end
+      #range=(2..Math.sqrt(integer.abs)).to_a # range is a list of all the factors of the integer
+  #  end
 
     i=0
-    while i < range.size
+    while i < Math.sqrt(integer)
       factor = range[i]
       if integer % factor == 0
         false
       end
       i+=1
     end
+  end
+end
 
 
-  range.any? do |factor|
-   (integer % factor == 0) || (integer / factor ==1 if integer!=1)#not divisible so not a multiple or 2
-   end
+
   #  binding.pry
 
 
