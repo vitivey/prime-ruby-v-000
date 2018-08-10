@@ -4,7 +4,7 @@
 # Add  code here!
 #integer=40
 def prime?(value)
-    integer = value.abs  #.abs finds the absolute value of a number
+    integer = (value).abs  #.abs finds the absolute value of a number
     if integer == 2
         true
     elsif integer == 3
