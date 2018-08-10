@@ -11,7 +11,6 @@ def prime?(integer)
     elsif integer < 0
       false
     else
-      
     i=2
     count=0
     while i < Math.sqrt(integer.abs)
