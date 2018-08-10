@@ -15,8 +15,7 @@ def prime?(integer)
 
     i=0
     while i < Math.sqrt(integer)
-      factor = range[i]
-      if integer % factor == 0
+      if integer % i == 0
         false
       end
       i+=1
